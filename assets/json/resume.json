@@ -10,6 +10,16 @@
       "name": "Genentech, Inc.",
       "position": "Principal Scientist, Group Leader",
 	  "startDate": "2024"
+    },
+    {
+      "name": "IST Austria",
+      "position": "Independent Staff Scientist",
+	  "startDate": "2022"
+    },
+    {
+      "name": "Wellcome Sanger Institute",
+      "position": "Machine Learning Team Leader",
+	  "startDate": "2021"
     }
   ],
   "education": [
@@ -17,10 +27,28 @@
       "institution": "Ecole Polytechnique Federale de Lausanne (EPFL)",
       "location": "Switzerland",
       "url": "https://www.epfl.ch/",
-      "area": "Computational Systems Biology",
+      "area": "Computational Systems Biology (Thesis Distinction, Top 8%)",
       "studyType": "PhD",
-      "endDate": "2019-01-18",
-      "score": "Thesis Distinction"
+      "endDate": "2019",
+      "score": "Thesis Distinction (top 8%)"
+    }, 
+    {
+      "institution": "University of British Columbia",
+      "location": "Canada",
+      "url": "https://www.ubc.ca/",
+      "area": "Bioinformatics",
+      "studyType": "MSc",
+      "endDate": "2014",
+      "score": "100"
+    }, 
+    {
+      "institution": "University of Waterloo",
+      "location": "Canada",
+      "url": "https://www.uwaterloo.ca/",
+      "area": "Chemical Engineering",
+      "studyType": "BASc",
+      "endDate": "2012",
+      "score": "100"
     }
   ]
 }
