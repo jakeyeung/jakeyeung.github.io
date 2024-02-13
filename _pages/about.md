@@ -35,7 +35,7 @@ My projects span three approaches (1) computational methods, (2)  technology dev
 
 
 <figure>
-  <img src="/assets/img/triangle2.png" alt="Three_Approaches" width="600" height="600">
+  <img src="/assets/img/triangle2.png" alt="Three_Approaches" width="300">
   <figcaption>Blending three approaches to biological discovery</figcaption>
 </figure>
 
@@ -48,9 +48,8 @@ Being able to infer new information from single-cell experiments often allows us
 
 Recently, we have recently developed a statistical unmixing method (scChIX-seq) that maps multiple histone modifications in single cells and learns the correlation structure between histone marks ([Yeung\*, Florescu\*, Zeller\* et al 2023](https://www.nature.com/articles/s41587-022-01560-3)). We are building on these multiplexing/unmixing methods to perform large-scale genetic and drug screening.
 
-![Multiplexing and unmixing to uncover relationships between chromatin states](/assets/img/scchix_example.png)
 <figure>
-  <img src="/assets/img/scchix_example.png" alt="scchix" width="800" height="400">
+  <img src="/assets/img/scchix_example.png" alt="scchix" width="1000">
   <figcaption> Multiplexing and unmixing reveal relationships between chromatin states </figcaption>
 </figure>
 
@@ -64,10 +63,8 @@ New functional genomics technologies can now measure the regulation and output o
 
 Recently, we have shown that combining cell surface markers with histone modification mapping in single cells (sortChIC) can systematically compare the genome-wide dfferences between active (e.g. H3K4me1, H3K4me3) and repressed (e.g. H3K27me3, H3K9me3) chromatin states during blood maturation([Zeller\*, Yeung\* et al 2022](https://www.nature.com/articles/s41588-022-01260-3)). We are now developing new ways to infer time information and integrate that in the analysis.
 
-![Analyzing global differences across chromatin states](/assets/img/sortchic_example.png)
-
 <figure>
-  <img src="/assets/img/sortchic_example.png" alt="sortChIC" width="800" height="400">
+  <img src="/assets/img/sortchic_example.png" alt="sortChIC" width="1000">
   <figcaption>Analysis methods that quantify global differences between cell types across chromatin states</figcaption>
 </figure>
 
@@ -81,7 +78,7 @@ Recently, we have crafted model selection approaches to systematically categoriz
 
 
 <figure>
-  <img src="/assets/img/4cseq_dynamics.gif" alt="4Cseq" width="800" height="400">
+  <img src="/assets/img/4cseq_dynamics.gif" alt="4Cseq" width="1000">
   <figcaption>Changes in chromatin conformation at Cry1 over 24 hours</figcaption>
 </figure>
 
