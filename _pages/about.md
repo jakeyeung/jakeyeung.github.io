@@ -11,8 +11,7 @@ profile:
   more_info: >
     <p>Genentech, Inc.</p>
     <p>1 DNA Way,</p>
-    <p>South San Francisco, CA 94080, USA
-</p>
+    <p>South San Francisco, CA 94080, USA</p>
 
 news: true # includes a list of news items
 latest_posts: true # includes a list of the newest posts
