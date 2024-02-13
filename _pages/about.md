@@ -2,13 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: Computational Biology
+subtitle: Analytical Methods and Computational Biology
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
+    <p>Principal Scientist.</p>
     <p>Genentech, Inc.</p>
     <p>1 DNA Way,</p>
     <p>South San Francisco, CA 94080, USA</p>
@@ -30,9 +31,14 @@ For my training, I was a Human Frontier Science Program (HFSP) fellow with Alexa
 Research themes
 =============
 
-My projects span three approaches (1) computational methods, (2)  technology development, and (3) biological function. They often blend two of these approaches at a time, bringing in  wet and dry lab components.
+My projects span three approaches (1) computational methods, (2)  technology development, and (3) biological function. They often blend two of these approaches at a time, bringing in wet and dry lab components.
 
-![Three approaches to biological discovery](/assets/img/triangle2.png)
+
+<figure>
+  <img src="/assets/img/triangle2.png" alt="Three_Approaches" width="600" height="600">
+  <figcaption>Blending three approaches to biological discovery</figcaption>
+</figure>
+
 
 Computationally-driven experimental design
 ---------------
@@ -43,6 +49,10 @@ Being able to infer new information from single-cell experiments often allows us
 Recently, we have recently developed a statistical unmixing method (scChIX-seq) that maps multiple histone modifications in single cells and learns the correlation structure between histone marks ([Yeung\*, Florescu\*, Zeller\* et al 2023](https://www.nature.com/articles/s41587-022-01560-3)). We are building on these multiplexing/unmixing methods to perform large-scale genetic and drug screening.
 
 ![Multiplexing and unmixing to uncover relationships between chromatin states](/assets/img/scchix_example.png)
+<figure>
+  <img src="/assets/img/scchix_example.png" alt="scchix" width="800" height="400">
+  <figcaption> Multiplexing and unmixing reveal relationships between chromatin states </figcaption>
+</figure>
 
 # Many advances in our understanding of how different cells in our body can turn on/off different parts of the genome come from
 
@@ -56,6 +66,11 @@ Recently, we have shown that combining cell surface markers with histone modific
 
 ![Analyzing global differences across chromatin states](/assets/img/sortchic_example.png)
 
+<figure>
+  <img src="/assets/img/sortchic_example.png" alt="sortChIC" width="800" height="400">
+  <figcaption>Analysis methods that quantify global differences between cell types across chromatin states</figcaption>
+</figure>
+
 Asking how cells regulate their genomes
 ---------------
 Computation  &harr; biological function.
@@ -65,5 +80,8 @@ Although functional genomics technologies can now measure the expression and acc
 Recently, we have crafted model selection approaches to systematically categorize genes into a handful of groups that share similar regulation ([Yeung\*, Mermet\* et al 2018](https://genome.cshlp.org/content/28/2/182.full), [Hor\*, Yeung\* et al 2019](https://www.pnas.org/doi/abs/10.1073/pnas.1910590116)). These methods allow the diverse gene expression patterns in a biological tissue to be explained in terms of a small number of biological regulatory principles, which leads to direct predictions that can be experimentally tested ([Mermet\*, Yeung\* et al 2018](https://genesdev.cshlp.org/content/32/5-6/347.full)).
 
 
-![Changes in chromatin conformation at _Cry1_ over 24 hours](/assets/img/4cseq_dynamics.gif)
+<figure>
+  <img src="/assets/img/4cseq_dynamics.gif" alt="4Cseq" width="800" height="400">
+  <figcaption>Changes in chromatin conformation at Cry1 over 24 hours</figcaption>
+</figure>
 
