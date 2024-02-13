@@ -33,7 +33,7 @@ Research themes
 
 My projects span three approaches (1) computational methods, (2)  technology development, and (3) biological function. They often blend two of these approaches at a time, bringing in  wet and dry lab components.
 
-![Three approaches to biological discovery](images/triangle2.png)
+![Three approaches to biological discovery](assets/img/triangle2.png)
 
 Computationally-driven experimental design
 ---------------
@@ -43,7 +43,7 @@ Being able to infer new information from single-cell experiments often allows us
 
 Recently, we have recently developed a statistical unmixing method (scChIX-seq) that maps multiple histone modifications in single cells and learns the correlation structure between histone marks ([Yeung\*, Florescu\*, Zeller\* et al 2023](https://www.nature.com/articles/s41587-022-01560-3)). We are building on these multiplexing/unmixing methods to perform large-scale genetic and drug screening.
 
-![Multiplexing and unmixing to uncover relationships between chromatin states](images/scchix_example.png)
+![Multiplexing and unmixing to uncover relationships between chromatin states](assets/img/scchix_example.png)
 
 # Many advances in our understanding of how different cells in our body can turn on/off different parts of the genome come from
 
@@ -55,7 +55,7 @@ New functional genomics technologies can now measure the regulation and output o
 
 Recently, we have shown that combining cell surface markers with histone modification mapping in single cells (sortChIC) can systematically compare the genome-wide dfferences between active (e.g. H3K4me1, H3K4me3) and repressed (e.g. H3K27me3, H3K9me3) chromatin states during blood maturation([Zeller\*, Yeung\* et al 2022](https://www.nature.com/articles/s41588-022-01260-3)). We are now developing new ways to infer time information and integrate that in the analysis.
 
-![Analyzing global differences across chromatin states](images/sortchic_example.png)
+![Analyzing global differences across chromatin states](assets/img/sortchic_example.png)
 
 Asking how cells regulate their genomes
 ---------------
@@ -66,5 +66,5 @@ Although functional genomics technologies can now measure the expression and acc
 Recently, we have crafted model selection approaches to systematically categorize genes into a handful of groups that share similar regulation ([Yeung\*, Mermet\* et al 2018](https://genome.cshlp.org/content/28/2/182.full), [Hor\*, Yeung\* et al 2019](https://www.pnas.org/doi/abs/10.1073/pnas.1910590116)). These methods allow the diverse gene expression patterns in a biological tissue to be explained in terms of a small number of biological regulatory principles, which leads to direct predictions that can be experimentally tested ([Mermet\*, Yeung\* et al 2018](https://genesdev.cshlp.org/content/32/5-6/347.full)).
 
 
-![Changes in chromatin conformation at _Cry1_ over 24 hours](images/4cseq_dynamics.gif)
+![Changes in chromatin conformation at _Cry1_ over 24 hours](assets/img/4cseq_dynamics.gif)
 
