@@ -14,12 +14,14 @@
     {
       "name": "IST Austria",
       "position": "Independent Staff Scientist",
-	  "startDate": "2022"
+	  "startDate": "2022",
+	  "endDate": "2023"
     },
     {
       "name": "Wellcome Sanger Institute",
       "position": "Machine Learning Team Leader",
-	  "startDate": "2021"
+	  "startDate": "2021",
+	  "endDate": "2023"
     }
   ],
   "education": [
