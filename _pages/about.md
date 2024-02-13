@@ -53,8 +53,6 @@ Recently, we have recently developed a statistical unmixing method (scChIX-seq) 
   <figcaption> Multiplexing and unmixing reveal relationships between chromatin states </figcaption>
 </figure>
 
-# Many advances in our understanding of how different cells in our body can turn on/off different parts of the genome come from
-
 Principles of data analysis for new functional genomics technologies
 --------------
 Tech dev &harr; biological function.
