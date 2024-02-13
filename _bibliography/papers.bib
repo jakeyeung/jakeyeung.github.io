@@ -1,84 +1,265 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
+%% For the author you want to highlight, please manually highlight the author you want
+%% https://www.linkedin.com/pulse/using-biblatex-conveniently-highlight-your-author-mark-coletti-phd
+% For co-first you need to manually add asterisks!! Terrible. 
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+
+
+@article{yeung2021deconvolving,
+  title={scChIX-seq infers dynamic relationships between histone modifications in single cells},
+  author={Yeung, Jake* and Florescu*, Maria and Zeller*, Peter and de Barbanson, Buys Anton and Wellenstein, Max D and van Oudenaarden, Alexander},
+  journal={Nature Biotechnology},
+  Author+an = {1=highlight},
+  year={2023},
+  doi = {10.1038/s41587-022-01560-3},
+  url = {https://www.nature.com/articles/s41587-022-01560-3}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@article{zeller2021hierarchical,
+  title={Single-cell sortChIC identifies hierarchical chromatin dynamics during hematopoiesis},
+  author={Zeller, Peter* and Yeung*, Jake and de Barbanson, Buys Anton and Gaza, Helena Vi{\~n}as and Florescu, Maria and van Oudenaarden, Alexander},
+  journal={Nature Genetics},
+  Author+an = {2=highlight},
+  year={2022},
+  url = {http://dx.doi.org/10.1038/s41588-022-01260-3},
+  doi={10.1038/s41588-022-01260-3}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
+@inproceedings{yeung2022learning,
+  title={Learning relationships between histone modifications in single cells},
+  author={Yeung, Jake and Florescu, Maria and Zeller, Peter and de Barbanson, Buys Anton and Wellenstein, Max D and van Oudenaarden, Alexander},
+  Author+an = {1=highlight},
+  booktitle={NeurIPS 2022 Workshop on Learning Meaningful Representations of Life},
+  year={2022}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
+@article{phillips2021circadian,
+  title={The circadian oscillator analysed at the single-transcript level},
+  author={Phillips, Nicholas E and Hugues, Alice and Yeung, Jake and Durandau, Eric and Nicolas, Damien and Naef, Felix},
+  journal={Molecular systems biology},
+  Author+an = {3=highlight},
   volume={17},
-  pages={549--560},
-  year={1905}
+  number={3},
+  pages={e10135},
+  year={2021}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@article{mermet2021oscillating,
+  title={Oscillating and stable genome topologies underlie hepatic physiological rhythms during the circadian cycle},
+  author={Mermet, J{\'e}r{\^o}me* and Yeung*, Jake and Naef, Felix},
+  journal={PLoS Genetics},
+  volume={17},
+  number={2},
+  pages={e1009350},
+Author+an = {2=highlight},
+  year={2021},
+  publisher={Public Library of Science}
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@article{Hor2019,
+abstract = {The timing and duration of sleep results from the interaction between a homeostatic sleep–wake-driven process and a periodic circadian process, and involves changes in gene regulation and expression. Unraveling the contributions of both processes and their interaction to transcriptional and epigenomic regulatory dynamics requires sampling over time under conditions of unperturbed and perturbed sleep. We profiled mRNA expression and chromatin accessibility in the cerebral cortex of mice over a 3-d period, including a 6-h sleep deprivation (SD) on day 2. We used mathematical modeling to integrate time series of mRNA expression data with sleep–wake history, which established that a large proportion of rhythmic genes are governed by the homeostatic process with varying degrees of interaction with the circadian process, sometimes working in opposition. Remarkably, SD caused long-term effects on gene-expression dynamics, outlasting phenotypic recovery, most strikingly illustrated by a damped oscillation of most core clock genes, including Arntl/Bmal1, suggesting that enforced wakefulness directly impacts the molecular clock machinery. Chromatin accessibility proved highly plastic and dynamically affected by SD. Dynamics in distal regions, rather than promoters, correlated with mRNA expression, implying that changes in expression result from constitutively accessible promoters under the influence of enhancers or repressors. Serum response factor (SRF) was predicted as a transcriptional regulator driving immediate response, suggesting that SRF activity mirrors the build-up and release of sleep pressure. Our results demonstrate that a single, short SD has long-term aftereffects at the genomic regulatory level and highlights the importance of the sleep–wake distribution to diurnal rhythmicity and circadian processes.},
+author = {Hor*, Charlotte N. and Yeung*, Jake and Jan, Maxime and Emmenegger, Yann and Hubbard, Jeffrey and Xenarios, Ioannis and Naef, Felix and Franken, Paul},
+Author+an = {2=highlight},
+doi = {10.1073/pnas.1910590116},
+file = {:Users/yeung/Library/Application Support/Mendeley Desktop/Downloaded/Hor et al. - 2019 - Sleep–wake-driven and circadian contributions to daily rhythms in gene expression and chromatin accessibility in t.pdf:pdf},
+issn = {10916490},
+journal = {Proceedings of the National Academy of Sciences of the United States of America},
+keywords = {Circadian,Epigenetics,Gene expression,Long-term effects,Sleep},
+mendeley-groups = {JakeYeung},
+month = {12},
+number = {51},
+pages = {25773--25783},
+publisher = {National Academy of Sciences},
+title = {{Sleep–wake-driven and circadian contributions to daily rhythms in gene expression and chromatin accessibility in the murine cortex}},
+url = {www.pnas.org/cgi/doi/10.1073/pnas.1910590116},
+volume = {116},
+year = {2019}
+}
+
+
+@article{Weger2019,
+abstract = {The circadian clock and associated feeding rhythms have a profound impact on metabolism and the gut microbiome. To what extent microbiota reciprocally affect daily rhythms of physiology in the host remains elusive. Here, we analyzed transcriptome and metabolome profiles of male and female germ-free mice. While mRNA expression of circadian clock genes revealed subtle changes in liver, intestine, and white adipose tissue, germ-free mice showed considerably altered expression of genes associated with rhythmic physiology. Strikingly, the absence of the microbiome attenuated liver sexual dimorphism and sex-specific rhythmicity. The resulting feminization of male and masculinization of female germ-free animals is likely caused by altered sexual development and growth hormone secretion, associated with differential activation of xenobiotic receptors. This defines a novel mechanism by which the microbiome regulates host metabolism.},
+author = {Weger, Benjamin D. and Gobet, C{\'{e}}dric and Yeung, Jake and Martin, Eva and Jimenez, Sonia and Betrisey, Bertrand and Foata, Francis and Berger, Bernard and Balvay, Aur{\'{e}}lie and Foussier, Anne and Charpagne, Aline and Boizet-Bonhoure, Brigitte and Chou, Chieh Jason and Naef, Felix and Gachon, Fr{\'{e}}d{\'{e}}ric},
+Author+an = {3=highlight},
+doi = {10.1016/j.cmet.2018.09.023},
+file = {:Users/yeung/Library/Application Support/Mendeley Desktop/Downloaded/Weger et al. - 2019 - The Mouse Microbiome Is Required for Sex-Specific Diurnal Rhythms of Gene Expression and Metabolism.pdf:pdf},
+issn = {19327420},
+journal = {Cell Metabolism},
+keywords = {Bcl6,circadian clock,ghrelin,growth hormone,liver,microbiota,sexual dimorphism,sexual maturation,symbiosis},
+mendeley-groups = {JakeYeung},
+month = {2},
+number = {2},
+pages = {362--382.e8},
+pmid = {30344015},
+publisher = {Cell Press},
+title = {{The Mouse Microbiome Is Required for Sex-Specific Diurnal Rhythms of Gene Expression and Metabolism}},
+volume = {29},
+year = {2019}
+}
+
+
+@article{Gachon2018,
+abstract = {Mammalian physiology resonates with the daily changes in the external environment, allowing processes such as rest–activity cycles, metabolism, and body temperature to synchronize with daily changes in the surroundings. Studies have identified the molecular underpinnings of robust oscillations in gene expression occurring over the 24-h day, but how acute or chronic perturbations modulate gene expression rhythms, physiology, and behavior is still relatively unknown. In this issue of Genes {\&} Development, Hong and colleagues (pp. 1367–1379) studied how acute and chronic inflammation interacts with the circadian clock. They found that NF-$\kappa$B signaling can modify chromatin states and modulate expression of genes in the core clock network as well as circadian loco-motor behavior. Interestingly, a high-fat diet (HFD) fed to mice also triggers this inflammation pathway, suggesting that cross-regulatory circuits link inflammation, HFD, and the circadian clock.},
+author = {Gachon, Fr{\'{e}}d{\'{e}}ric and Yeung, Jake and Naef, Felix},
+Author+an = {2=highlight},
+doi = {10.1101/gad.320911.118},
+file = {:Users/yeung/Library/Application Support/Mendeley Desktop/Downloaded/Gachon, Yeung, Naef - 2018 - Cross-regulatory circuits linking inflammation, high-fat diet, and the circadian clock.pdf:pdf},
+issn = {15495477},
+journal = {Genes and Development},
+keywords = {Circadian,Genomics,High-fat diet,Inducible transcription,Inflammation,NF-$\kappa$B},
+mendeley-groups = {JakeYeung},
+month = {11},
+number = {21-22},
+pages = {1359--1360},
+publisher = {Cold Spring Harbor Laboratory Press},
+title = {{Cross-regulatory circuits linking inflammation, high-fat diet, and the circadian clock}},
+url = {http://www.genesdev.org/cgi/doi/10.1101/gad.320911.},
+volume = {32},
+year = {2018}
+}
+
+@article{Wang2018,
+abstract = {The mammalian circadian clock coordinates physiology with environmental cycles through the regulation of daily oscillations of gene expression. Thousands of transcripts exhibit rhythmic accumulations across mouse tissues, as determined by the balance of their synthesis and degradation. While diurnally rhythmic transcription regulation is well studied and often thought to be the main factor generating rhythmic mRNA accumulation, the extent of rhythmic posttranscriptional regulation is debated, and the kinetic parameters (e.g., half-lives), as well as the underlying regulators (e.g., mRNA-binding proteins) are relatively unexplored. Here, we developed a quantitative model for cyclic accumulations of pre-mRNA and mRNA from total RNA-seq data, and applied it to mouse liver. This allowed us to identify that about 20{\%} of mRNA rhythms were driven by rhythmic mRNA degradation, and another 15{\%} of mRNAs regulated by both rhythmic transcription and mRNA degradation. The method could also estimate mRNA half-lives and processing times in intact mouse liver. We then showed that, depending on mRNA half-life, rhythmic mRNA degradation can either amplify or tune phases of mRNA rhythms. By comparing mRNA rhythms in wild-type and Bmal1-/- animals, we found that the rhythmic degradation of many transcripts did not depend on a functional BMAL1. Interestingly clock-dependent and -independent degradation rhythms peaked at distinct times of day. We further predicted mRNA-binding proteins (mRBPs) that were implicated in the posttranscriptional regulation of mRNAs, either through stabilizing or destabilizing activities. Together, our results demonstrate how posttranscriptional regulation temporally shapes rhythmic mRNA accumulation in mouse liver.},
+author = {Wang, Jingkui and Symul, Laura and Yeung, Jake and Gobet, C{\'{e}}dric and Sobel, Jonathan and L{\"{u}}ck, Sarah and Westermark, P{\aa}l O and Molina, Nacho and Naef, Felix},
+Author+an = {3=highlight},
+doi = {10.1073/pnas.1715225115},
+file = {:Users/yeung/Library/Application Support/Mendeley Desktop/Downloaded/Wang et al. - 2018 - Circadian clock-dependent and -independent posttranscriptional regulation underlies temporal mRNA accumulation in m.pdf:pdf},
+issn = {1091-6490},
+journal = {Proceedings of the National Academy of Sciences of the United States of America},
+keywords = {RNA binding proteins,circadian clock,mRNA half-lives,posttranscriptional regulation},
+mendeley-groups = {JakeYeung,TrendsInGenetics},
+month = {2},
+number = {8},
+pages = {E1916--E1925},
+pmid = {29432155},
+publisher = {National Academy of Sciences},
+title = {{Circadian clock-dependent and -independent posttranscriptional regulation underlies temporal mRNA accumulation in mouse liver.}},
+url = {http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC5828596},
+volume = {115},
+year = {2018}
+}
+
+
+@article{Mermet2016,
+abstract = {Mammals have evolved an internal timing system, the circadian clock, which synchronizes physiology and behavior to the daily light and dark cycles of the Earth. The master clock, located in the suprachiasmatic nucleus (SCN) of the brain, takes fluctuating light input from the retina and synchronizes other tissues to the same internal rhythm. The molecular clocks that drive these circadian rhythms are ticking in nearly all cells in the body. Efforts in systems chronobiology are now being directed at understanding, on a comprehensive scale, how the circadian clock controls different layers of gene regulation to provide robust timing cues at the cellular and tissue level. In this review, we introduce some basic concepts underlying periodicity of gene regulation, and then highlight recent genome-wide investigations on the propagation of rhythms across multiple regulatory layers in mammals, all the way from chromatin conformation to protein accumulation.},
+author = {Mermet, J{\'{e}}r{\^{o}}me and Yeung, Jake and Naef, Felix},
+Author+an = {2=highlight},
+doi = {10.1101/cshperspect.a028720},
+file = {:Users/yeung/Library/Application Support/Mendeley Desktop/Downloaded/Mermet, Yeung, Naef - 2016 - Systems Chronobiology Global Analysis of Gene Regulation in a 24-Hour Periodic World.pdf:pdf},
+issn = {1943-0264},
+journal = {Cold Spring Harbor perspectives in biology},
+mendeley-groups = {JakeYeung,circadian{\_}rhythms},
+month = {12},
+pages = {a028720},
+pmid = {27920039},
+publisher = {Cold Spring Harbor Laboratory Press},
+title = {{Systems Chronobiology: Global Analysis of Gene Regulation in a 24-Hour Periodic World.}},
+url = {http://www.ncbi.nlm.nih.gov/pubmed/27920039},
+year = {2016}
+}
+
+
+@article{Wyatt2014,
+abstract = {Genomic analyses of hundreds of prostate tumors have defined a diverse landscape of mutations and genome rearrangements, but the transcriptomic effect of this complexity is less well understood, particularly at the individual tumor level. We selected a cohort of 25 high-risk prostate tumors, representing the lethal phenotype, and applied deep RNA-sequencing and matched whole genome sequencing, followed by detailed molecular characterization. Ten tumors were exposed to neo-adjuvant hormone therapy and expressed marked evidence of therapy response in all except one extreme case, which demonstrated early resistance via apparent neuroendocrine transdifferentiation. We observe high inter-tumor heterogeneity, including unique sets of outlier transcripts in each tumor. Interestingly, outlier expression converged on druggable cellular pathways associated with cell cycle progression, translational control or immune regulation, suggesting distinct contemporary pathway affinity and a mechanism of tumor stratification. We characterize hundreds of novel fusion transcripts, including a high frequency of ETS fusions associated with complex genome rearrangements and the disruption of tumor suppressors. Remarkably, several tumors express unique but potentially-oncogenic non-ETS fusions, which may contribute to the phenotype of individual tumors, and have significance for disease progression. Finally, one ETS-negative tumor has a striking tandem duplication genotype which appears to be highly aggressive and present at low recurrence in ETS-negative prostate cancer, suggestive of a novel molecular subtype. The multitude of rare genomic and transcriptomic events detected in a high-risk tumor cohort offer novel opportunities for personalized oncology and their convergence on key pathways and functions has broad implications for precision medicine.},
+author = {Wyatt, Alexander W and Mo, Fan and Wang, Kendric and McConeghy, Brian and Brahmbhatt, Sonal and Jong, Lina and Mitchell, Devon M and Johnston, Rebecca L and Haegert, Anne and Li, Estelle and Liew, Janet and Yeung, Jake and Shrestha, Raunak and Lapuk, Anna V and McPherson, Andrew and Shukin, Robert and Bell, Robert H and Anderson, Shawn and Bishop, Jennifer and Hurtado-Coll, Antonio and Xiao, Hong and Chinnaiyan, Arul M and Mehra, Rohit and Lin, Dong and Wang, Yuzhuo and Fazli, Ladan and Gleave, Martin E and Volik, Stanislav V and Collins, Colin C},
+Author+an = {12=highlight},
+doi = {10.1186/s13059-014-0426-y},
+file = {:Users/yeung/Library/Application Support/Mendeley Desktop/Downloaded/Wyatt et al. - 2014 - Heterogeneity in the inter-tumor transcriptome of high risk prostate cancer.pdf:pdf},
+issn = {1474-760X},
+journal = {Genome Biology},
+keywords = {Animal Genetics and Genomics,Bioinformatics,Evolutionary Biology,Human Genetics,Microbial Genetics and Genomics,Plant Genetics {\&} Genomics},
+mendeley-groups = {intestinal{\_}stem{\_}cells,JakeYeung},
+month = {8},
+number = {8},
+pages = {426},
+publisher = {BioMed Central},
+title = {{Heterogeneity in the inter-tumor transcriptome of high risk prostate cancer}},
+url = {http://genomebiology.biomedcentral.com/articles/10.1186/s13059-014-0426-y},
+volume = {15},
+year = {2014}
+}
+
+
+
+@article{Lanen2015,
+abstract = {With the increased use of intermittent renewable power generation, including wind and solar, the need for energy storage is increasing. Re-purposed hybrid electric vehicle lithium ion batteries have been shown to have energy storage potential at a reduced financial cost. In a two stage MatLAB simulation, a ‘Net Zero' grid connected facility is created, and then the yearly electricity price of is calculated under various scenario using two different pricing structures, fixed Feed-in Tariff (FIT) and market. The facility under consideration is a commercial distribution center with refrigeration, onsite generation of hydrogen for fuel cell powered forklifts, solar and wind power generation, and re-purposed batteries for energy storage. The FIT mechanism is shown to be a deterrent to implementing energy storage onsite, as well as to increasing the use of locally generated power. The mechanism also negatively influences the indirect electricity emissions, which is not consistent with environmental objectives.},
+author = {Lanen, Daniel Van and Cocking, Jennifer and Walker, Sean B. and Fowler, Michael and Fraser, Roydon and Young, Steven B. and Ahmadi, Leila and Thai, Alan and Yeung, Jake and Yip, Arthur},
+Author+an = {9=highlight},
+doi = {10.1504/IJPSE.2015.071434},
+issn = {1757-6342},
+journal = {International Journal of Process Systems Engineering},
+mendeley-groups = {JakeYeung},
+number = {1/2/3},
+pages = {158},
+title = {{Economic and environmental analysis of a green energy hub with energy storage under fixed and variable pricing structures}},
+url = {http://www.inderscience.com/link.php?id=71434},
+volume = {3},
+year = {2015}
+}
+
+
+
+
+
+@article{Yeung2018Review,
+abstract = {Circadian rhythms in physiology and behavior evolved to resonate with daily cycles in the external environment. In mammals, organs orchestrate temporal physiology over the 24-h day, which requires extensive gene expresion rhythms targeted to the right tissue. Although a core set of gene products oscillates across virtually all cell types, gene expression profiling across tissues over the 24-h day showed that rhythmic gene expression programs are tissue specific. We highlight recent progress in uncovering how the circadian clock interweaves with tissue-specific gene regulatory networks involving functions such as xenobiotic metabolism, glucose homeostasis, and sleep. This progress hinges on not only comprehensive experimental approaches but also computational methods for multivariate analysis of periodic functional genomics data. We emphasize dynamic chromatin interactions as a novel regulatory layer underlying circadian gene transcription, core clock functions, and ultimately behavior. Finally, we discuss perspectives on extending the knowledge of the circadian clock in animals to human chronobiology.},
+author = {Yeung, Jake and Naef, Felix},
+Author+an = {1=highlight},
+doi = {10.1016/J.TIG.2018.09.005},
+file = {::},
+issn = {0168-9525},
+journal = {Trends in Genetics},
+mendeley-groups = {circadian{\_}rhythms},
+month = {12},
+number = {12},
+pages = {915--926},
+publisher = {Elsevier Current Trends},
+title = {{Rhythms of the Genome: Circadian Dynamics from Chromatin Topology, Tissue-Specific Gene Expression, to Behavior}},
+url = {https://www.sciencedirect.com/science/article/pii/S0168952518301574},
+volume = {34},
+year = {2018}
+}
+
+
+@article{Yeung2018,
+abstract = {Temporal control of physiology requires the interplay between gene networks involved in daily timekeeping and tissue function across different organs. How the circadian clock interweaves with tissue-specific transcriptional programs is poorly understood. Here, we dissected temporal and tissue-specific regulation at multiple gene regulatory layers by examining mouse tissues with an intact or disrupted clock over time. Integrated analysis uncovered two distinct regulatory modes underlying tissue-specific rhythms: tissue-specific oscillations in transcription factor (TF) activity, which were linked to feeding-fasting cycles in liver and sodium homeostasis in kidney; and colocalized binding of clock and tissue-specific transcription factors at distal enhancers. Chromosome conformation capture (4C-seq) in liver and kidney identified liver-specific chromatin loops that recruited clock-bound enhancers to promoters to regulate liver-specific transcriptional rhythms. Furthermore, this looping was remarkably promoter-specific on the scale of less than 10 kilobases (kb). Enhancers can contact a rhythmic promoter while looping out nearby nonrhythmic alternative promoters, confining rhythmic enhancer activity to specific promoters. These findings suggest that chromatin folding enables the clock to regulate rhythmic transcription of specific promoters to output temporal transcriptional programs tailored to different tissues.},
+author = {Yeung, Jake* and Mermet*, J{\'{e}}r{\^{o}}me and Jouffe, C{\'{e}}line and Marquis, Julien and Charpagne, Aline and Gachon, Fr{\'{e}}d{\'{e}}ric and Naef, Felix},
+Author+an = {1=highlight},
+doi = {10.1101/gr.222430.117},
+file = {:Users/yeung/Library/Application Support/Mendeley Desktop/Downloaded/Yeung et al. - 2018 - Transcription factor activity rhythms and tissue-specific chromatin interactions explain circadian gene expression.pdf:pdf},
+issn = {1549-5469},
+journal = {Genome research},
+mendeley-groups = {transcription,JakeYeung},
+month = {2},
+number = {2},
+pages = {182--191},
+pmid = {29254942},
+publisher = {Cold Spring Harbor Laboratory Press},
+title = {{Transcription factor activity rhythms and tissue-specific chromatin interactions explain circadian gene expression across organs.}},
+url = {http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=PMC5793782},
+volume = {28},
+year = {2018}
+}
+
+@article{Mermet2018,
+abstract = {The circadian clock in animals orchestrates widespread oscillatory gene expression programs, which underlie 24-h rhythms in behavior and physiology. Several studies have shown the possible roles of transcription factors and chromatin marks in controlling cyclic gene expression. However, how daily active enhancers modulate rhythmic gene transcription in mammalian tissues is not known. Using circular chromosome conformation capture (4C) combined with sequencing (4C-seq), we discovered oscillatory promoter-enhancer interactions along the 24-h cycle in the mouse liver and kidney. Rhythms in chromatin interactions were abolished in arrhythmicBmal1knockout mice. Deleting a contacted intronic enhancer element in theCryptochrome 1(Cry1) gene was sufficient to compromise the rhythmic chromatin contacts in tissues. Moreover, the deletion reduced the daily dynamics ofCry1transcriptional burst frequency and, remarkably, shortened the circadian period of locomotor activity rhythms. Our results establish oscillating and clock-controlled promoter-enhancer looping as a regulatory layer underlying circadian transcription and behavior.},
+author = {Mermet, J{\'{e}}r{\^{o}}me* and Yeung*, Jake and Hurni, Cl{\'{e}}mence and Mauvoisin, Daniel and Gustafson, Kyle and Jouffe, C{\'{e}}line and Nicolas, Damien and Emmenegger, Yann and Gobet, C{\'{e}}dric and Franken, Paul and Gachon, Fr{\'{e}}d{\'{e}}ric and Naef, F{\'{e}}lix},
+Author+an = {2=highlight},
+doi = {10.1101/gad.312397.118},
+file = {:Users/yeung/Library/Application Support/Mendeley Desktop/Downloaded/Mermet et al. - 2018 - Clock-dependent chromatin topology modulates circadian transcription and behavior.pdf:pdf},
+issn = {1549-5477},
+volume={32},
+number={5-6},
+pages={347--358},
+journal = {Genes {\&} development},
+keywords = {DNA regulatory elements,chromatin topology,circadian rhythms,promoter–enhancer loops,transcriptional bursting},
+mendeley-groups = {transcription,JakeYeung},
+month = {3},
+pmid = {29572261},
+publisher = {Cold Spring Harbor Laboratory Press},
+title = {{Clock-dependent chromatin topology modulates circadian transcription and behavior.}},
+url = {http://www.ncbi.nlm.nih.gov/pubmed/29572261},
+year = {2018}
 }
