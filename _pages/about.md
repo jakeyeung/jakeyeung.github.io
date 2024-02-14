@@ -36,7 +36,7 @@ My projects span three approaches: computational methods, technology development
 
 <figure>
   <img src="/assets/img/triangle2.png" alt="Three_Approaches" width="300">
-  <figcaption>Fig. 1: Blending the three approaches for diagnostics and therapeutics</figcaption>
+  <figcaption><strong>Fig. 1:</strong> Blending the three approaches for diagnostics and therapeutics</figcaption>
 </figure>
 
 
@@ -50,7 +50,7 @@ Recently, we have recently developed a statistical unmixing method (scChIX-seq) 
 
 <figure>
   <img src="/assets/img/scchix_example.png" alt="scchix" width="1000">
-  <figcaption> Multiplexing and unmixing reveal relationships between chromatin states </figcaption>
+  <figcaption><strong>Fig. 2:</strong> Multiplexing and unmixing reveal relationships between chromatin states </figcaption>
 </figure>
 
 (2) Principles of data analysis for new functional genomics technologies
@@ -63,7 +63,7 @@ Recently, we have shown that combining cell surface markers with histone modific
 
 <figure>
   <img src="/assets/img/sortchic_example.png" alt="sortChIC" width="1000">
-  <figcaption>Analysis methods that quantify global differences between cell types across chromatin states</figcaption>
+  <figcaption><strong>Fig. 3:</strong>Analysis methods that quantify global differences between cell types across chromatin states</figcaption>
 </figure>
 
 (3) Asking how cells regulate their genomes
@@ -77,6 +77,6 @@ Recently, we have crafted model selection approaches to systematically categoriz
 
 <figure>
   <img src="/assets/img/4cseq_dynamics.gif" alt="4Cseq" width="1000">
-  <figcaption>Changes in chromatin conformation at Cry1 over 24 hours</figcaption>
+  <figcaption><strong>Fig. 4:</strong>Changes in chromatin conformation at Cry1 over 24 hours</figcaption>
 </figure>
 
