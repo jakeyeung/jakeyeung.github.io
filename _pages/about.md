@@ -40,7 +40,7 @@ My projects span three approaches: computational methods, technology development
 </figure>
 
 
-1. Computationally-driven experimental design
+(1) Computationally-driven experimental design
 ---------------
 Computation &harr;technology development.
 
@@ -53,7 +53,7 @@ Recently, we have recently developed a statistical unmixing method (scChIX-seq) 
   <figcaption> Multiplexing and unmixing reveal relationships between chromatin states </figcaption>
 </figure>
 
-2. Principles of data analysis for new functional genomics technologies
+(2) Principles of data analysis for new functional genomics technologies
 --------------
 Tech dev &harr; biological function.
 
@@ -66,7 +66,7 @@ Recently, we have shown that combining cell surface markers with histone modific
   <figcaption>Analysis methods that quantify global differences between cell types across chromatin states</figcaption>
 </figure>
 
-3. Asking how cells regulate their genomes
+(3) Asking how cells regulate their genomes
 ---------------
 Computation  &harr; biological function.
 
