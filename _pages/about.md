@@ -31,12 +31,12 @@ For my training, I was a Human Frontier Science Program (HFSP) fellow with Alexa
 Research themes
 =============
 
-My projects span three approaches (1) computational methods, (2)  technology development, and (3) biological function. They often blend two of these approaches at a time, bringing in wet and dry lab components.
+My projects span three approaches (1) computational methods, (2)  technology development, and (3) biological function. They often pairs two of these approaches at a time (Fig. 1), bringing in wet and dry lab components.
 
 
 <figure>
   <img src="/assets/img/triangle2.png" alt="Three_Approaches" width="300">
-  <figcaption>Blending three approaches to biological discovery</figcaption>
+  <figcaption>Fig. 1: Pairing the three approaches for diagnostics and therapeutics</figcaption>
 </figure>
 
 
