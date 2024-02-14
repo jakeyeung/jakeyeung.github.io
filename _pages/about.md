@@ -36,7 +36,7 @@ My projects span three approaches: computational methods, technology development
 
 <figure>
   <img src="/assets/img/triangle2.png" alt="Three_Approaches" width="300">
-  <figcaption>Fig. 1: Pairing the three approaches for diagnostics and therapeutics</figcaption>
+  <figcaption>Fig. 1: Blending the three approaches for diagnostics and therapeutics</figcaption>
 </figure>
 
 
