@@ -44,7 +44,7 @@ My projects span three approaches: computational methods, technology development
 ---------------
 Computation &harr;technology development.
 
-Inferring new information from single-cell experiments allow us to ask new questions about how cells function. Many advances have come from purely wet lab-driven approaches, but can hit diminishing returns. We have found developing new statistical methods alongside with new technologies can advance measurement limitations by inferring hidden biological parameters.
+Inferring new information from single-cell experiments allow us to ask new questions about how cells function. Many wet lab-driven approaches have advanced what we kinds of biological measurements we can make, but trying to experimentally enumerate all possible combinations of measurements or conditions can quickly hit diminishing returns. Developing new statistical methods alongside with new technologies can advance measurement limitations by inferring hidden biological parameters.
 
 Recently, we have recently developed a statistical unmixing method (scChIX-seq) that maps multiple histone modifications in single cells and learns the correlation structure between histone marks ([Yeung\*, Florescu\*, Zeller\* et al 2023](https://www.nature.com/articles/s41587-022-01560-3)). We are building on these multiplexing/unmixing methods to perform large-scale genetic and drug screening.
 
