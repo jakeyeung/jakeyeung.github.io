@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Analytical Methods and Computational Biology
+subtitle: Theory, Experiment, and Statistical Analysis for Genome Biology and Drug Discovery
 
 profile:
   align: right
@@ -23,60 +23,56 @@ social: false # includes social icons at the bottom of the page
 Overview
 ==============
 
-I am a computational biologist working at the interface of statistical/machine learning, functional genomics technologies, and genome biology. I focus on understanding how different cells turn/off different parts of our genome to give rise to different functions in our body, and how this control fails in disease.
+I am a systems biologist at Genentech's Research & Early Development (gRED), where I combine theory, experiment, and analysis to understand how cells regulate their genomes and to discover drugs that revert disease states to healthy ones. My work pairs top-down observational analysis of complex tissue environments with bottom-up causal perturbations to isolate specific cellular behaviors. By integrating public and in-house datasets, I aim to predict therapeutic efficacy and potential off-target effects across diverse patient contexts.
 
-For my training, I was a Human Frontier Science Program (HFSP) fellow with Alexander van Oudenaarden at the Hubrecht Institute. Before that, I completed my PhD at the EPFL in computational systems biology advised by Felix Naef.
+For my training, I was a Human Frontier Science Program (HFSP) fellow with Alexander van Oudenaarden at the Hubrecht Institute, and completed my PhD at EPFL in computational systems biology advised by Felix Naef.
 
 
 Research themes
 =============
 
-My projects span three approaches: computational methods, technology development, and biological function. They often pairs two of these approaches at a time (Fig. 1), bringing in wet and dry lab components.
+My projects span three approaches — theory, experiment, and statistical analysis — and typically pair two of these at a time (Fig. 1), bringing in both wet and dry lab components to address questions in oncology and genome biology.
 
 
 <figure>
-  <img src="/assets/img/triangle2.png" alt="Three_Approaches" width="300">
-  <figcaption><strong>Fig. 1: </strong>Blending the three approaches for diagnostics and therapeutics</figcaption>
+  <img src="/assets/img/triangle2.svg" alt="Three_Approaches" width="300">
+  <figcaption><strong>Fig. 1: </strong>Blending theory, experiment, and statistical analysis for genome biology and drug discovery</figcaption>
 </figure>
 
 
-(1) Computationally-driven experimental design
+(1) Theory-driven experimental design
 ---------------
-Computation &harr;technology development.
+Theory &harr; Experiment.
 
-Inferring new information from single-cell experiments allow us to ask new questions about how cells function. Many wet lab-driven approaches have advanced what we kinds of biological measurements we can make, but trying to experimentally enumerate all possible combinations of measurements or conditions can quickly hit diminishing returns. Developing new statistical methods alongside with new technologies can advance measurement limitations by inferring hidden biological parameters or unmixing multiplexed experiments.
+Designing informative experiments requires theory: models that predict what can be learned from a given measurement strategy before running it. Rather than experimentally enumerating all possible conditions, we derive theoretical frameworks that quantify information gain, reproducibility limits, and cost-information tradeoffs, then use these to design experiments that maximize signal per dollar.
 
-Recently, we have recently developed a statistical unmixing method (scChIX-seq) that maps multiple histone modifications in single cells and learns the correlation structure between histone marks ([Yeung\*, Florescu\*, Zeller\* et al 2023](https://www.nature.com/articles/s41587-022-01560-3)). We are building on these multiplexing/unmixing methods to perform large-scale genetic and drug screening.
+We have also developed a statistical unmixing method (scChIX-seq) that maps multiple histone modifications in single cells and learns the correlation structure between histone marks ([Yeung\*, Florescu\*, Zeller\* et al 2023](https://www.nature.com/articles/s41587-022-01560-3)).
 
 <figure>
   <img src="/assets/img/scchix_example.png" alt="scchix" width="1000">
   <figcaption><strong>Fig. 2: </strong> Multiplexing and unmixing reveal relationships between chromatin states </figcaption>
 </figure>
 
-(2) Principles of data analysis for new functional genomics technologies
+(2) Statistical analysis of functional genomics technologies
 --------------
-Tech dev &harr; biological function.
+Experiment &harr; Statistical Analysis.
 
-<!---
-New functional genomics technologies can now measure the regulation and output of every gene in the genome in virtually every cell in the body. However, the analysis side remains the bottleneck because it is unclear what are the most exciting biological questions you can ask from technologies given a specific experiment, and how to craft the analysis to pull out the most relevant information that will inspire the next incisive experiment. Therefore, analyses that go beyond the data exploration stage iterate between bespoke statistical/machine learning models and reasoning about the model outputs in the context of how and why the experiment was performed.
--->
+New functional genomics technologies can measure the regulation and output of every gene across virtually every cell in the body. Making sense of this data requires statistical methods that separate biological signal from technical artifacts in sparse, noisy settings, and that integrate information across experiments performed under vastly different conditions. The goal is inference and prediction that can guide the next experiment or therapeutic hypothesis.
 
-New functional genomics technologies can now measure the regulation and output of every gene in the genome in virtually every cell in the body. However, the analysis side is challenging because it is unclear (a) what are the most exciting biological questions you can ask from different technolgoies given a fixed budget, (b) how to think about the design and analysis to separate biological signal from unwanted technical artifacts in sparse, noisy, and limited data regimes, and (c) how to integrate external information from other experiments across different labs in the world (where conditions vastly differ) to improve statistical inference and prediction. 
-
-Recently, we have shown that combining cell surface markers with histone modification mapping in single cells (sortChIC) can systematically compare the genome-wide dfferences between active (e.g. H3K4me1, H3K4me3) and repressed (e.g. H3K27me3, H3K9me3) chromatin states during blood maturation([Zeller\*, Yeung\* et al 2022](https://www.nature.com/articles/s41588-022-01260-3)). We are now developing new ways to infer time information and integrate that in the analysis.
+We have shown that combining cell surface markers with histone modification mapping in single cells (sortChIC) can systematically compare genome-wide differences between active (e.g. H3K4me1, H3K4me3) and repressed (e.g. H3K27me3, H3K9me3) chromatin states during blood maturation ([Zeller\*, Yeung\* et al 2022](https://www.nature.com/articles/s41588-022-01260-3)). At Genentech, we extend these approaches to large-scale perturbation screens in oncology, integrating in-house and public datasets to predict therapeutic response across patient contexts.
 
 <figure>
   <img src="/assets/img/sortchic_example.png" alt="sortChIC" width="1000">
   <figcaption><strong>Fig. 3: </strong>Analysis methods that quantify global differences between cell types across chromatin states</figcaption>
 </figure>
 
-(3) Asking how cells regulate their genomes
+(3) Principles of genome regulation
 ---------------
-Computation  &harr; biological function.
+Theory &harr; Statistical Analysis.
 
-Although functional genomics technologies can now measure the expression and accessibility of thousands of genes across thousands of cells, discovering regulatory principles that explain the changes in gene expression over time and in different cell types is still challenging. Even when using established technologies, the analysis side remains the bottleneck because one must still redefine/refine what are the interesting questions to ask given a specific experiment, and craft the analysis to systematically tackle the question that will inspire the next incisive experiment. Possible principles are hypothesized through data exploration, then articulated in a statistical model, and tested against carefully crafted null hypotheses. At each step one must reason about the outputs in the context of how and why the experiment was performed. 
+Understanding how cells regulate their genomes requires moving from description to mechanism: hypothesizing regulatory principles, articulating them as statistical models, and testing them against carefully crafted null hypotheses. Even well-characterized tissues harbor rich regulatory structure that only becomes visible when the right question is asked of the right data.
 
-Recently, we have crafted model selection approaches to systematically categorize genes into a handful of groups that share similar regulation. These methods allow the diverse gene expression patterns in a biological tissue to be explained in terms of a small number of biological regulatory principles, for example quantifying how much tissue-specific dynamics come from individual transcription factors versus cooperation between pairs ([Yeung\*, Mermet\* et al 2018](https://genome.cshlp.org/content/28/2/182.full)) or the contribution of sleep-wake driven versus circadian processes in gene expression dynamics ([Hor\*, Yeung\* et al 2019](https://www.pnas.org/doi/abs/10.1073/pnas.1910590116)). These analyses lead to direct predictions that can be experimentally tested (for example, CRISPR knockout of enhancers [Mermet\*, Yeung\* et al 2018](https://genesdev.cshlp.org/content/32/5-6/347.full)).
+We have developed model selection approaches to categorize genes by shared regulatory logic, reducing diverse expression patterns across a tissue to a small number of interpretable principles — for example, quantifying how much tissue-specific dynamics come from individual transcription factors versus cooperation between pairs ([Yeung\*, Mermet\* et al 2018](https://genome.cshlp.org/content/28/2/182.full)), or disentangling sleep-wake driven from circadian processes in gene expression ([Hor\*, Yeung\* et al 2019](https://www.pnas.org/doi/abs/10.1073/pnas.1910590116)). These analyses yield direct predictions testable by experiment, such as CRISPR knockout of enhancers ([Mermet\*, Yeung\* et al 2018](https://genesdev.cshlp.org/content/32/5-6/347.full)), and provide a template for the same regulatory decomposition in disease contexts.
 
 
 <figure>
