@@ -36,7 +36,7 @@ My projects span three approaches — theory, experiment, and statistical analys
 
 <figure>
   <img src="/assets/img/triangle2.svg" alt="Three_Approaches" width="300">
-  <figcaption><strong>Fig. 1: </strong>Blending theory, experiment, and statistical analysis for genome biology and drug discovery</figcaption>
+  <figcaption><strong>Fig. 1: </strong>Theory, experiment, and statistical analysis for genome biology and drug discovery</figcaption>
 </figure>
 
 
