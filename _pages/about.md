@@ -20,7 +20,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-Overview
+Systems Biology for Drug Discovery
 ==============
 
 I am a systems biologist at Genentech's Research & Early Development (gRED), where I combine theory, experiment, and analysis to understand how cells regulate their genomes and to discover drugs that revert disease states to healthy ones. My work pairs top-down observational analysis of complex tissue environments with bottom-up causal perturbations to isolate specific cellular behaviors. By integrating public and in-house datasets, I aim to predict therapeutic efficacy and potential off-target effects across diverse patient contexts.
