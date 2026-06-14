@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Theory, Experiment, and Statistical Analysis for Genome Biology and Drug Discovery
+subtitle: Theory, Experiment, and Analysis for Genome Biology and Drug Discovery
 
 profile:
   align: right
